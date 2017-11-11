@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import sys
 word_dict = {}
 for line in sys.stdin:
@@ -7,4 +8,4 @@ for line in sys.stdin:
     else:
         word_dict[word] += 1
 for key, value in word_dict.items():
-    sys.stdout.write(("{0},{1}\n".format(key, value)))
+	sys.stdout.write(("{0},{1}\n".format(key, value)))
